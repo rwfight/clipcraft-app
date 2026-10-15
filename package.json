@@ -1,0 +1,17 @@
+{
+  "name": "clipcraft-app",
+  "productName": "ClipCraft",
+  "version": "1.0.0",
+  "description": "ClipCraft for Mac: free TikTok, Instagram and X video downloader and file converters.",
+  "private": true,
+  "main": "src/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "package": "node scripts/build.mjs"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^44.7.2"
+  }
+}
